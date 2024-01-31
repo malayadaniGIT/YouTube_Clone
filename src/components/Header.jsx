@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import ytLogo from "../images/ytlogo.png";
 import ytLogoMobile from "../images/ytlogomobile.png";
+import UserPic from "../images/UserPic.jpg";
 import { SlMenu } from "react-icons/sl";
 import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
@@ -100,7 +101,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-          <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" alt="userimg" />
+          <img src={UserPic} alt="userimg" />
         </div>
       </div>
       
